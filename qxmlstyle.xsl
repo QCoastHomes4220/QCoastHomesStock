@@ -12,7 +12,7 @@
       </head>
   <body>
     <div class = "container">
-      <h2>Qcoast Homes Brochures List</h2>
+      <h2>Q Coast Homes Brochures List</h2>
         <tbody id = "test">
          <table class = "table table-bordered table-striped">
             <tr bgcolor="#9acd32">
