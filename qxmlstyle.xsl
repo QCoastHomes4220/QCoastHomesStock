@@ -17,12 +17,14 @@
          <table class = "table table-bordered table-striped">
             <tr bgcolor="#9acd32">
             <th>Package</th>
+            <th>Suburb</th>
           <th>Price</th>
           <th>Brochure</th>
         </tr>
     <xsl:for-each select="residential">
         <tr>
           <td><xsl:value-of select="headline"/></td>
+          <td><xsl:value-of select="address/suburb"/></td>
           <td><xsl:value-of select="priceView"/></td>
           <td><a href="{objects/document/@url}"><xsl:value-of select="objects/document/@url"/></a></td>
         </tr>
